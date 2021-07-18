@@ -1,9 +1,10 @@
 import React from 'react';
 import Timer from '../Timer/Timer';
+import './App.css'
 function App() {
   
   return (
-    <div className='container'>
+    <div className='app-container'>
         <Timer></Timer>
     </div>
   );
