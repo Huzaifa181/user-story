@@ -1,17 +1,12 @@
 import React, { useEffect } from "react";
 import {BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import logo from './logo.svg';
+import Layout from './Layout'
 
 function App() {
   return (
     <div className='app'>
-
-      Huzaifa Ahmed
-        <Switch>
-        {/* <Route exact path="/" render={()=><Layout/>}/> */}
-        {/* <Route exact path="/user-page" render={()=><Layout/>}/> */}
-        </Switch>
-</div>
+      <Layout/>
+    </div>
   );
 }
 
