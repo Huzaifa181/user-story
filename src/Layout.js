@@ -1,9 +1,9 @@
-import React, { useEffect } from "react";
+import React from "react";
 
 function Layout() {
   return (
     <h1>
-        Huzaifa
+        Huzaifa Ahmed
     </h1>
   );
 }
