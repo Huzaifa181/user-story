@@ -1,8 +1,14 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-
-const TimerButton = ({ buttonAction, buttonValue }) => (
-  <div className="button-container" />
+import './TimerButton.css'
+type Props={
+    buttonValue:string;
+    buttonAction:() => void;
+}
+const TimerButton:React.FC<Props> = ({ buttonAction, buttonValue }) => (
+    <div className="button-container"  onClick={() => buttonAction()}>
+    <p className="button-value">{buttonValue}</p>
+    </div>
 );
 
 TimerButton.propTypes = {
