@@ -10,7 +10,7 @@ script:
 deploy:
   provider: surge
   skip_cleanup: true
-  domain: // put your domain here
+  domain: https://user-story-huzaifa.surge.sh/
   project: ./build/
 
 on:
